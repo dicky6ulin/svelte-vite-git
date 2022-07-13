@@ -1,6 +1,7 @@
 <script lang="ts">
+	import Decrement from './lib/Decrement.svelte';
   import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  import Increment from './lib/Increment.svelte';
 </script>
 
 <main>
@@ -15,7 +16,8 @@
   <h1>Vite + Svelte</h1>
 
   <div class="card">
-    <Counter />
+    <Increment />
+    <Decrement />
   </div>
 
   <p>
